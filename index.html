@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/form_validation.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="form_response.html" method="GET" id="form-signup">
+            <div class="form-group">
+                <label for="username">Nombre de usuario</label>
+                <input type="text" id="username" name="username" class="form-control" />
+                <span id="error-username-required">* error: nombre de usuario obligatorio</span>
+
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" class="form-control" />
+                <span id="error-password-required">* error: contraseña obligatoria</span>
+
+                <label for="password-confirm">Confirmar contraseña</label>
+                <input type="password" id="password-confirm" name="password-confirm" class="form-control" />
+                <span id="error-password-confirm-required">* error: confirmación de la contraseña obligatorio</span>
+                <span id="error-password-match-required">* error: las contraseñas deben coincidir</span>
+
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
