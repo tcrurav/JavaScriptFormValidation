@@ -10,7 +10,7 @@ Hoy en día se suele trabajar con algún framework o librería de JavaScript com
 
 Cuando hacemos una petición a un servidor web, éste nos responde con la página web solicitada.
 
-![alt text](https://github.com/tcrurav/JavaScriptForm/blob/master/screenshots/http.gif)
+![alt text](https://github.com/tcrurav/JavaScriptFormValidation/blob/master/screenshots/http.gif)
 
 Cuando un usuario rellena un formulario HTML, al hacer click en el botón de "submit" lo que hace es enviar toda esa información al servidor web. 
 
